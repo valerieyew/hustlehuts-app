@@ -22,5 +22,5 @@ You will also see any lint errors in the console.
 
 
 ### A screenshot of the project page
-[![](/Homepage.png)]()
+[![](public/Homepage.png)]()
 
