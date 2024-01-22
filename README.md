@@ -1,8 +1,6 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Setup
+## Setup
 ##### `npm install --global yarn`
 ##### `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser`
 ##### `npm install react-scripts --save`
