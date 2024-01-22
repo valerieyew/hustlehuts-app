@@ -1,0 +1,234 @@
+
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_font-webfont.woff2') format('woff2'),
+       url('../fonts/proxima_nova_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  body {
+    color: #000;
+    background: #fff;
+    font: 16px/1.5 "Proxima Nova", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    min-width: 360px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  
+  audio,
+  canvas,
+  progress,
+  video {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+  }
+  
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  
+  b,
+  strong {
+    font-weight: bold;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  * {
+    max-height: 1000000px;
+  }
+  
+  #wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  a,
+  .link-text {
+    color: #4574C3;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+    &:hover,
+    &:focus {
+      // text-decoration: underline;
+    }
+  }
+  
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6,
+  .h {
+    font-family: "Proxima Nova", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 400;
+    margin: 0 0 0.5em;
+    color: #000;
+    line-height: 1.25;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 60px;
+    line-height: 1;
+
+    @media (max-width: 1023px) {
+      font-size: 40px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 32px;
+    }
+  }
+  
+  h2,
+  .h2 {
+    font-size: 36px;
+    line-height: 1;
+
+    @media (max-width: 1023px) {
+      font-size: 30px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+  
+  h3,
+  .h3 {
+    font-size: 40px;
+  }
+  
+  h4,
+  .h4 {
+    font-size: 22px;
+  }
+  
+  h5,
+  .h5 {
+    font-size: 17px;
+  }
+  
+  h6,
+  .h6 {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-active {
+    overflow: hidden;
+  }
+
+  .ReactModal__Overlay {
+    z-index: 11;
+  }
+
+  .modal {
+    width: 90%;
+    max-width: 465px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    max-height: 90vh;
+    margin-top: 5vh;
+    overflow: auto;
+
+    .modal-scroller {
+      padding: 40px 35px 30px;
+      position: relative;
+
+      @media (max-width: 767px) {
+        padding: 50px 15px 30px;
+      }
+    }
+
+    .close {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 30px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 44px;
+      line-height: 1;
+      margin: 0 0 15px;
+
+      @media (max-width: 767px) {
+        font-size: 30px;
+        margin: 0 0 30px;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .ReactModal__Body--open {
+    overflow: hidden;
+  }
