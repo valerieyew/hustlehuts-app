@@ -2,7 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup
 ##### `npm install --global yarn`
-##### `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser`
 ##### `npm install react-scripts --save`
 
 
